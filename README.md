@@ -1,6 +1,6 @@
 # VideoToGif
 
-Android/Java module provide gif making feature.
+Android/Java module provides gif making feature.
 
 # All this library in your project
 1. Add it in your root build.gradle at the end of repositories:
@@ -41,5 +41,5 @@ The simplest way to display gif in imageview is using Glide:
 ```
 Glide.with(context).asGif().load(gif).into(gifView);
 ```
-@gif You can pass File object or byte[] as parameter inside load function.
+@gif You can pass File object or byte[] as parameter inside load function. </br>
 @gifView ImageView where you want to display GIF. 
